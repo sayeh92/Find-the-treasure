@@ -12,14 +12,10 @@ document.querySelector('.check').addEventListener('click', function () {
         text('Correct number!');
         document.querySelector('.number1').textContent = random;
         document.querySelector('body').style.backgroundColor = '#60b357';
-       
-        // document.querySelector('.number').style.width = '30rem';
-    } else if (guess > random) {
+
+      
+    } else if (guess !== random) {
         text('Wrong Chest!');
         document.querySelector('body').style.backgroundColor = 'red';
-    } else if (guess < random) {
-        document.querySelector('body').style.backgroundColor = 'red';
-        text('Wrong Chest!!');
-        
     }
 });
