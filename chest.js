@@ -14,7 +14,7 @@ document.querySelector('.check').addEventListener('click', function () {
         document.querySelector('body').style.backgroundColor = '#60b357';
 
       
-    } else if (guess !== random) {
+    } else (guess !== random) {
         text('Wrong Chest!');
         document.querySelector('body').style.backgroundColor = 'red';
     }
