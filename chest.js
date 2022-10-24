@@ -16,9 +16,9 @@ document.querySelector('.check').addEventListener('click', function () {
         // document.querySelector('.number').style.width = '30rem';
     } else if (guess > random) {
         text('Wrong Chest!');
-        document.querySelector('body').style.backgroundColor = '#red';
+        document.querySelector('body').style.backgroundColor = 'red';
     } else if (guess < random) {
-        document.querySelector('body').style.backgroundColor = '#red';
+        document.querySelector('body').style.backgroundColor = 'red';
         text('Wrong Chest!!');
         
     }
